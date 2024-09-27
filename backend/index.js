@@ -16,7 +16,7 @@ app.use(cors({
   }));
 
 mongoose
-    .connect('mongodb+srv://adityashivhare7291:jq1QfSZQvyEaPxCl@cluster0.cvliz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+    .connect(process.env.DB, {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
