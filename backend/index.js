@@ -12,11 +12,11 @@ dotenv.config();
 
 app.use(express.json({ limit: '10mb' }))
 app.use(cors({
-    origin: 'https://school-mangement-crm-nikhil18patils-projects.vercel.app'
+    origin: 'https://school-mangement-crm-eta.vercel.app'
   }));
 
 mongoose
-    .connect('mongodb+srv://nikhilpatil18012004:uwhDOeNA5gVL9M4J@cluster0.yoy3k.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+    .connect('mongodb+srv://adityashivhare7291:jq1QfSZQvyEaPxCl@cluster0.cvliz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
         useNewUrlParser: true,
         useUnifiedTopology: true
     })
