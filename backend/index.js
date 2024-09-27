@@ -12,7 +12,7 @@ dotenv.config();
 
 app.use(express.json({ limit: '10mb' }))
 app.use(cors({
-    origin: 'http://localhost:3000'
+    origin: 'https://school-mangement-nfqzvanrf-nikhil18patils-projects.vercel.app/'
   }));
 
 mongoose
